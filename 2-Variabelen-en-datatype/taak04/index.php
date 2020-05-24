@@ -7,6 +7,7 @@
 <body>
    <?php
    $test = true;
+   if $test = true; echo ""
    echo $test;
    ?> 
 </body>
