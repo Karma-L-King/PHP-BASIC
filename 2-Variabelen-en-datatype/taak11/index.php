@@ -6,11 +6,8 @@
 </head>
 <body>
    <?php
-
-   $test = true;
-   if ($test = true)
-   {echo "true";} 
-   echo $test;
+   $voornaam = "karma";
+    var_dump($voornaam);
    ?> 
 </body>
 </html>

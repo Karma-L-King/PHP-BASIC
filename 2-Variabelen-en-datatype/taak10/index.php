@@ -6,11 +6,13 @@
 </head>
 <body>
    <?php
+  
 
-   $test = true;
-   if ($test = true)
-   {echo "true";} 
-   echo $test;
+
+   $item = "<li>tas</li>";
+    $item .= "<li>bal</li>";
+    $item .= "<li>zwaard</li>";
+    echo $item;
    ?> 
 </body>
 </html>

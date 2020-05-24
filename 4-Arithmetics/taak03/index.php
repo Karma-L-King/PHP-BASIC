@@ -6,11 +6,9 @@
 </head>
 <body>
    <?php
-
-   $test = true;
-   if ($test = true)
-   {echo "true";} 
-   echo $test;
+   $getal1 = 420;
+   echo ++$getal1 . "<br>";
+   echo --$getal1 . "<br>";
    ?> 
 </body>
 </html>
