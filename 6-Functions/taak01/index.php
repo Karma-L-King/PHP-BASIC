@@ -6,7 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
- 
+
+<?php 
+
+
+    function aanelkaar() {
+        $woordje = "hallo ";
+        $zin = "mooie blauwe planeet";
+        $Helezin = $woordje . $zin ."<br>";
+        echo $Helezin;
+        
+    } 
+
+    aanelkaar();
+
+?>
 </body>
 </html>
