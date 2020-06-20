@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <?php include 'includes/functions.php'; ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Title</title>
   </head>
     <form action="producten.php" method="get"><!-- dit laten staan! -->
-
+      <?php include 'includes/menu.php'; ?>
     <p>Hieronder een lijst met producten die je bij ons kunt bestellen en de prijs per stuk:</p>
         <table>
             <tr>
@@ -35,7 +36,7 @@
     <p><button type="submit" name="submit">Bereken totaal</button></p><!-- dit laten staan! -->
     <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je:</p>
     <p>je bent <?php getAge(); ?> je korting is: </p>
-
+      <?php include 'includes/footer.php'; ?>
     </form><!-- dit laten staan! -->
   </body>
 </html>

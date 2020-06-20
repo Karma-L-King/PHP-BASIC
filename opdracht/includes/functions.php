@@ -1,9 +1,11 @@
 <?php
+$prodcutnummer = array ("peer", "appel");
 
 function getInput()
 {
-    $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
+    $input = $_GET ['input'] ?? 'vul een waarde in hierboven en klik op [check]';
     echo $input;
+
 }
 
 
@@ -25,4 +27,9 @@ function getAge()
     echo $leeftijd;
 }
 
+function getKorting()
+{
+    
+}
+        
 ?>
