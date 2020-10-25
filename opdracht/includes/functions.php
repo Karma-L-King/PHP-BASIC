@@ -15,9 +15,8 @@ $product = [
     ["kaas",10,1.00],
 ];
 
-
-
-
+$producten = array("appel", "peer");
+$prijs = array(0.25,0.30);
 
 function getInput()
 {
